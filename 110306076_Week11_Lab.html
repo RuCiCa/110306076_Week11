@@ -1,0 +1,17 @@
+<html>
+<body>
+	<script type="text/javascript">
+		var rand = Math.floor((Math.random()*10)+1);
+		var number =window.prompt("Guess number from 1 to 10");
+		while (number != rand){
+			if (number <= 10 && number >= 0){
+				var number =window.prompt("LOL let's try again "+"\n"+"Guess number from 1 to 10");
+			}
+			else{
+				var number =window.prompt("Please enter number between 1 to 10"+"\n"+"Guess number from 1 to 10");
+			}
+		}
+		alert("Nice you enter the right number!")
+	</script>
+</body>
+</html>
